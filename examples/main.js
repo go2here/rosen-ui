@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+import '../components/css/demo.scss'
+import Demo from '../components/lib/demo/index'
+
+// Vue.component('Demo', Demo)
+Vue.use(Demo) // Demo.install -> Vue.component()
+
 Vue.config.productionTip = false
 
 new Vue({
