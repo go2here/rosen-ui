@@ -1,14 +1,15 @@
 <template>
-  <div class="m-card">
-    <div class="m-card-img">
-      <img src="" alt="img">
+  <div class="m-card" :style="width ? {width: width + 'px'} : {}">
+    <div class="m-card-img" :style="imgHeight ? {height: imgHeight + 'px'} : {}">
+      <img :src="imgSrc" alt="img">
     </div>
-    <div class="m-card-summary">
-      summary
+    <div v-if=summary class="m-card-summary">
+      {{ summary }}
     </div>
-    <div class="footer">
-      footer
+    <div v-else class="m-card-summary">
+      <slot></slot>
     </div>
+    <slot name="footer"></slot>
   </div>
 </template>
 <script>
