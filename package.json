@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "npm run build:js && npm run build:css",
     "lint": "vue-cli-service lint",
-    "build:js": "webpack --config ./webpack.component.js"
+    "build:js": "webpack --config ./webpack.component.js",
+    "build:css": "npx gulp sass"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -24,9 +25,14 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.6.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^5.1.0",
     "node-sass": "^7.0.1",
     "prettier": "^2.6.2",
     "prettier-eslint": "^13.0.0",
+    "sass": "^1.51.0",
     "sass-loader": "^12.6.0",
     "vue-loader": "^15.9.8",
     "vue-template-compiler": "^2.6.14",
