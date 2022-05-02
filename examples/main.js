@@ -13,8 +13,8 @@ Vue.use(Demo)
 
 // 按需引用
 import 'rosen-ui/dist/css/card.css'
-import Card from 'rosen-ui'
-Vue.use(Card)
+import card from 'rosen-ui'
+Vue.use(card)
 
 Vue.config.productionTip = false
 
