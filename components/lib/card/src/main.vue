@@ -25,8 +25,8 @@ export default {
       default: ''
     },
     imgHeight: { // 卡片图片高度
-      type: String,
-      default: ''
+      type: Number,
+      default: 0
     },
     summary: { // 卡片概要
       type: String,
