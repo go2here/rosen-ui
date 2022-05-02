@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <Demo />
-    <m-card imgSrc="java.png" summary="剑指Java面试-Offer直通车 百度资深面试官授课" />
-    <br />
-    <m-card imgSrc="c.png" summary="C/C++气象数据中心实战，手把手教你做工业级项目">
+    <!-- <Demo /> -->
+    <card imgSrc="java.png" summary="剑指Java面试-Offer直通车 百度资深面试官授课" />
+    <!-- <br /> -->
+    <!-- <m-card imgSrc="c.png" summary="C/C++气象数据中心实战，手把手教你做工业级项目">
       <template #footer>
         <div class="footer">
           <div class="level">中级 · 336人报名</div>
@@ -21,14 +21,13 @@
           <div class="level">6342收藏</div>
         </div>
       </template>
-    </m-card>
+    </m-card> -->
   </div>
 </template>
 
 <script>
 export default {
   name: 'App',
-  components: {},
 }
 </script>
 

@@ -15,7 +15,7 @@
 <script>
 
 export default {
-  name: 'm-card',
+  name: 'Card',
   props: {
     width: { // 卡片宽度
       type: Number,
