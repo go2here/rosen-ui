@@ -1,24 +1,25 @@
-# mooc-ui
+# rosen-ui 组件库
 
-## Project setup
-```
-npm install
-```
+### 快速开始
 
-### Compiles and hot-reloads for development
+#### 1，安装组件库
+```bash
+npm i rosen-ui
 ```
-npm run serve
-```
+#### 2，引用组件库
+```javascript
+// 全部引用
+import 'rosen-ui/dist/css/index.css'
+import RUI from 'rosen-ui'
+Vue.use(RUI)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+// 按需引用
+import 'rosen-ui/dist/css/demo.css'
+import { Demo } from 'rosen-ui'
+Vue.use(Demo)
 
-### Lints and fixes files
+// 按需引用
+import 'rosen-ui/dist/css/card.css'
+import { Card } from 'rosen-ui'
+Vue.use(Card)
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
