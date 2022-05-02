@@ -8,7 +8,7 @@ import Card from '../components/lib/card/index'
 
 // Vue.component('Demo', Demo)
 Vue.use(Demo) // Demo.install -> Vue.component()
-Vue.use(Card)
+Vue.use(Card) // Card.install -> Vue.component()
 
 Vue.config.productionTip = false
 
