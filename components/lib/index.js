@@ -13,8 +13,8 @@ const install = function (Vue) {
   })
 }
 
-const RUI = {
+const API = {
   install
 }
 
-export default RUI
+export default API
