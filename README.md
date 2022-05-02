@@ -15,11 +15,11 @@ Vue.use(RUI)
 
 // 按需引用
 import 'rosen-ui/dist/css/demo.css'
-import { Demo } from 'rosen-ui'
+import Demo from 'rosen-ui'
 Vue.use(Demo)
 
 // 按需引用
 import 'rosen-ui/dist/css/card.css'
-import { Card } from 'rosen-ui'
+import Card from 'rosen-ui'
 Vue.use(Card)
 ```
