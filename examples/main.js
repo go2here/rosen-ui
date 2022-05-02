@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import '../components/css/index.scss'
-import RUI from '../components/lib/index'
+// 全部引用
+import 'rosen-ui/dist/css/index.css'
+import RUI from 'rosen-ui'
 Vue.use(RUI)
 
 // // 按需引用
