@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Card组件库',
-  base: '/rosenUI/',
+  base: '/rosen-ui/',
   description: 'Just playing around',
   themeConfig: {
     sidebar: [
