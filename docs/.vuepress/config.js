@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Hello VuePress',
+  title: 'Card组件库',
   description: 'Just playing around',
   themeConfig: {
     sidebar: [
