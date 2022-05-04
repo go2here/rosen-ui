@@ -3,7 +3,7 @@
 
 ### 示例
 
-<m-card imgSrc="/c.png" summary="vue" />
+<m-card imgSrc="/rosen-ui/c.png" summary="vue" />
 
 ### 代码
 
